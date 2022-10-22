@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Inconsolata|Charmonman");
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(gallinasDeCampo.jpg);
+  margin: 0;
+  font-family: Inconsolata, monospace;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #14264e;
+  border-bottom: 3px solid #e7476b;
+}
+
+nav a {
+  padding: 8px 1em;
+  display: block;
+  font-size: 2em;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #e7476b;
+}
+
+.two_columns {
+  display: flex;
+  margin: 2em;
+  justify-content: flex-end;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: flex-start;
+  flex: 4;
+}
+
+main > * {
+  max-width: 300px;
+  margin: 16px;
+}
+
+main p {
+  text-align: justify;
+}
+
+main article:nth-child(2) p:first-of-type {
+  text-align: left;
+}
+
+article,
+section {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 16pt;
+  margin-bottom: 2em;
+}
+
+h1 {
+  background-color: #e7476b;
+  color: white;
+  font-family: Merriweather, serif;
+  padding-left: calc(1em + 16pt);
+  padding: 2em;
+  margin: 0;
+}
+
+.box-citation {
+  background-color: #e7476b;
+  color: white;
+  border-radius: 8pt;
+  padding: 8pt;
+}
+
+blockquote {
+  margin: 8pt;
+  font-family: Charmonman;
+  font-size: 18pt;
+}
+
+blockquote::before {
+  content: "\201C";
+}
+
+blockquote::after {
+  content: "\201D";
+}
+
+dt {
+  color: #e7476b;
+  font-weight: bold;
+}
+
+aside {
+  background-color: #14264e;
+  color: #e7476b;
+  padding: 8px;
+  margin-top: 16px;
+  margin-left: 2em;
+  flex: 1;
+  border: 3px solid;
+  border-radius: 8px;
+}
+
+aside ul {
+  padding-left: 16px;
+}
+
+aside ul li {
+  padding: 8px 0;
+}
+
+aside a {
+  color: #e7476b;
+}
+
+footer {
+  background-color: #e7476b;
+  padding: 0 16pt;
+  font-size: 10pt;
+}
+
+footer img {
+  vertical-align: bottom;
+}
