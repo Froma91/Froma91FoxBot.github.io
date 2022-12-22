@@ -26,7 +26,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #e7476b;
+  background-color: #3b63c7;
 }
 
 .two_columns {
@@ -65,7 +65,7 @@ section {
 }
 
 h1 {
-  background-color: #e7476b;
+  background-color: rgb(25, 152, 11);
   color: white;
   font-family: Merriweather, serif;
   padding-left: calc(1em + 16pt);
@@ -74,16 +74,18 @@ h1 {
 }
 
 .box-citation {
-  background-color: #e7476b;
+  background-color: #e79f47;
   color: white;
   border-radius: 8pt;
   padding: 8pt;
+  
 }
 
 blockquote {
   margin: 8pt;
   font-family: Charmonman;
   font-size: 18pt;
+  border:#e79f47 groove 23px;
 }
 
 blockquote::before {
@@ -95,13 +97,13 @@ blockquote::after {
 }
 
 dt {
-  color: #e7476b;
+  color: #47e7aa;
   font-weight: bold;
 }
 
 aside {
   background-color: #14264e;
-  color: #e7476b;
+  color: #47e7a4;
   padding: 8px;
   margin-top: 16px;
   margin-left: 2em;
@@ -119,11 +121,11 @@ aside ul li {
 }
 
 aside a {
-  color: #e7476b;
+  color: #47e7aa;
 }
 
 footer {
-  background-color: #e7476b;
+  background-color:  rgb(25, 152, 11);
   padding: 0 16pt;
   font-size: 10pt;
 }
